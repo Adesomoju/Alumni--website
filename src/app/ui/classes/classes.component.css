@@ -1,55 +1,3 @@
-.horizon {
-    background-color: #f82249;
-    width: 120px;
-}
-
-#head h1 {
-    color: #fff;
-    font-family: "Raleway", sans-serif;
-    font-size: 56px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding-top: 200px;
-    text-align: center;
-}
-
-#head h1 span {
-    color: #f82249;
-}
-
-#head p {
-    color: #ebebeb;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-}
-
-#head a {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    padding: 12px, 32px;
-    display: inline-block;
-    border-radius: 50px;
-    transition: 0.5s;
-    line-height: 1;
-    margin: 10px;
-    color: #fff;
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-    border: 2px solid #f82249;
-}
-
-#head a:hover {
-    background: #f82249;
-    color: #fff;
-}
-
-
-/* about us section */
-
 .section-header {
     margin-bottom: 40px;
     position: relative;
@@ -75,9 +23,6 @@
     color: #9195a2;
 }
 
-
-/* Executive */
-
 #speakers {
     padding: 60px 0 30px 0;
 }
@@ -101,7 +46,7 @@
 
 #speakers .speaker .details h3 {
     color: #fff;
-    font-size: 22px;
+    font-size: 10px;
     font-weight: 600;
     margin-bottom: 5px;
 }
@@ -135,9 +80,9 @@
 
 #speakers-details .details h2 {
     color: #112363;
-    font-size: 28px;
+    font-size: 12px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 #speakers-details .details .social {
@@ -151,8 +96,8 @@
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
+    width: 20px;
+    height: 20px;
     padding-top: 9px;
 }
 
@@ -162,11 +107,11 @@
 }
 
 #speakers-details .details .social a i {
-    font-size: 18px;
+    font-size: 6px;
 }
 
 #speakers-details .details p {
     color: #112363;
-    font-size: 15px;
-    margin-bottom: 10px;
+    font-size: 8px;
+    margin-bottom: 5px;
 }

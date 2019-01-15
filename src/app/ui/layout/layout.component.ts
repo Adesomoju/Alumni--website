@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.css']
 })
 export class LayoutComponent implements OnInit {
-
+  // loadedFeature = 'events';
+  // onNavigate(feauture: string) {
+  //   this.loadedFeature = feauture;
+  // }
   constructor() { }
 
   ngOnInit() {

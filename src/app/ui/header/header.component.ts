@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +10,14 @@ export class HeaderComponent implements OnInit {
   toggleCollapsed(): void {
     this.collapsed = !this.collapsed;
   }
+
+// tslint:disable-next-line:member-ordering
+//   @Output() feautureSelected = new EventEmitter<string>();
+//   OnSelect(feauture: string) {
+//     console.log('clicked me!');
+//     this.feautureSelected.emit(feauture);
+// }
+
   constructor() { }
 
   ngOnInit() {
