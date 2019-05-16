@@ -25,12 +25,14 @@ export class LayoutComponent implements OnInit {
 
   public Speechs = [
     // tslint:disable-next-line:max-line-length
-    'Aboriosam inventore dolorem inventore nam est esse. Aperiam voluptatem nisi molestias laborum ut. Porro dignissimos eum. Tempore dolores minus unde est voluptatum incidunt ut aperiam.',
+    'You are welcome to St. Louis Grammar School Owo Alumni website. This page provides information about the old girls of the school and their activities in the school.',
     // tslint:disable-next-line:max-line-length
-    'Voluptatem perferendis sed assumenda voluptatibus. Laudantium molestiae sint. Doloremque odio dolore dolore sit. Quae labore alias ea omnis ex expedita sapiente molestias atque. Optio voluptas et.',
+    'The Old girls Association was established in 1993, but gathered greater momentum at the establishment of its WhatsApp group in 2016. The membership has risen and the level of enthusiasm has risen.',
     // tslint:disable-next-line:max-line-length
-    'Et dolore blanditiis officiis non quod id possimus. Optio non commodi alias sint culpa sapiente nihil ipsa magnam. Qui eum alias provident omnis incidunt aut. Eius et officia corrupti omnis error vel quia omnis velit. In qui debitis',
-    'autem aperiam voluptates unde sunt et facilis'
+    'We are however congnisant of the fact that we still have many Old girls scattered all over the world and we are eager to have them join us.',
+// tslint:disable-next-line: max-line-length
+    'So if you are an Old girl just visiting this site, kindly register your name and join this happy family. Many of your school mates are eager to link up with you.',
+    'God bless you.'
   ];
 
   constructor() { }
