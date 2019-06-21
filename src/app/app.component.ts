@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // tslint:disable-next-line:member-ordering
-  title = 'Alumus-Site';
+  title = 'SLO-Alumni';
 }

@@ -12,15 +12,20 @@ export class LayoutComponent implements OnInit {
   // tslint:disable-next-line:member-ordering
   public Excos = [
     // tslint:disable-next-line:max-line-length
-    {image: '/assets/achievement-adult-african-1035598.jpg', name: 'Brenden Legros', position: 'Quas alias incidunt', set: 'Fugiat laborum et'},
-    {image: '/assets/intro-bg.jpg', name: 'Cole Emmerich', position: 'Fugiat laborum et', set: 'Fugiat laborum et'},
+    {image: '/assets/Fadaka.jpg', name: 'Yemi Jimi Salami (Fadaka)', position: 'President (2018 to date)', set: '1981 set'},
+// tslint:disable-next-line: max-line-length
+    {image: '/assets/Aderinsola_Ogunleye.jpg', name: 'Aderinsola Oloye Ogunleye', position: 'Vice President (2018 to date)', set: '1985 Set'},
     // tslint:disable-next-line:max-line-length
-    {image: '/assets/black-background-bulb-close-up-52910.jpg', name: 'Jack Christiansen', position: 'Debitis iure vero', set: 'Fugiat laborum et'},
+    {image: '/assets/Morayo.jpg', name: 'Simisola Morayo Asekun', position: 'General Secretary (2018 to date)', set: '1993 set'},
     // tslint:disable-next-line:max-line-length
-    {image: '/assets/black-background-bulb-close-up-52910.jpg', name: 'Hubert Hirthe', position: 'Consequuntur odio aut', set: 'Fugiat laborum et'},
+    {image: '/assets/toyin.jpg', name: 'Toyin Bello nee Adeniyi', position: 'Public Relations Officer (2018 to date)', set: '1996 set'},
     // tslint:disable-next-line:max-line-length
-    {image: '/assets/achievement-adult-african-1035598.jpg', name: 'Alejandrin Littel', position: 'Qui molestiae natus', set: 'Fugiat laborum et'},
-    {image: '/assets/intro-bg.jpg', name: 'Willow Trantow', position: 'Non autem dicta', set: 'Fugiat laborum et'}
+   {image: '/assets/monisola.jpg', name: 'Monisola Akinrosotu Esan', position: 'Treasurer (2018 to date)', set: '1993 set'},
+// tslint:disable-next-line: max-line-length
+   {image: '/assets/IMG_20171005_080744047_BURST001.jpg', name: 'Olubunmi T Eyelade', position: 'Assistant General Secretary (2018 to date)', set: '1995 set'},
+// tslint:disable-next-line: max-line-length
+   {image: '/assets/Bola_Adebayo.jpg', name: 'Bolanle Adebayo Odukoya', position: 'Financial Secretary (2018 to date)', set: '1993 set'}
+
   ];
 
   public Speechs = [
