@@ -1,3 +1,4 @@
+<app-header></app-header>
 <section class="section-header" style="padding-top: 80px;background-color: #f6f7fd" data-aos="flip-left">
     <div class="container ">
         <div>
@@ -7,35 +8,28 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="p-5" class="animate fadeIn" style="padding-top:30px;">
-
-                <p style="text-align:left;">Voluptatem perferendis sed assumenda voluptatibus. Laudantium molestiae sint. Doloremque odio dolore dolore sit. Quae labore alias ea omnis ex expedita sapiente molestias atque. Optio voluptas et.</p>
-
-                <p style="text-align:left;">Aboriosam inventore dolorem inventore nam est esse. Aperiam voluptatem nisi molestias laborum ut. Porro dignissimos eum. Tempore dolores minus unde est voluptatum incidunt ut aperiam.</p>
-
-                <p style="text-align:left;">Et dolore blanditiis officiis non quod id possimus. Optio non commodi alias sint culpa sapiente nihil ipsa magnam. Qui eum alias provident omnis incidunt aut. Eius et officia corrupti omnis error vel quia omnis velit. In qui debitis autem
-                    aperiam voluptates unde sunt et facilis.</p>
-                <p style="text-align:left;">Voluptatem perferendis sed assumenda voluptatibus. Laudantium molestiae sint. Doloremque odio dolore dolore sit. Quae labore alias ea omnis ex expedita sapiente molestias atque. Optio voluptas et.</p>
-
-                <p style="text-align:left;">Aboriosam inventore dolorem inventore nam est esse. Aperiam voluptatem nisi molestias laborum ut. Porro dignissimos eum. Tempore dolores minus unde est voluptatum incidunt ut aperiam.</p>
-
-                <p style="text-align:left;">Et dolore blanditiis officiis non quod id possimus. Optio non commodi alias sint culpa sapiente nihil ipsa magnam. Qui eum alias provident omnis incidunt aut. Eius et officia corrupti omnis error vel quia omnis velit. In qui debitis autem
-                    aperiam voluptates unde sunt et facilis.</p>
-                <p style="text-align:left;">Voluptatem perferendis sed assumenda voluptatibus. Laudantium molestiae sint. Doloremque odio dolore dolore sit. Quae labore alias ea omnis ex expedita sapiente molestias atque. Optio voluptas et.</p>
-
-                <p style="text-align:left;">Aboriosam inventore dolorem inventore nam est esse. Aperiam voluptatem nisi molestias laborum ut. Porro dignissimos eum. Tempore dolores minus unde est voluptatum incidunt ut aperiam.</p>
-
-                <p style="text-align:left;">Et dolore blanditiis officiis non quod id possimus. Optio non commodi alias sint culpa sapiente nihil ipsa magnam. Qui eum alias provident omnis incidunt aut. Eius et officia corrupti omnis error vel quia omnis velit. In qui debitis autem
-                    aperiam voluptates unde sunt et facilis.</p>
-                <p style="text-align:left;">Voluptatem perferendis sed assumenda voluptatibus. Laudantium molestiae sint. Doloremque odio dolore dolore sit. Quae labore alias ea omnis ex expedita sapiente molestias atque. Optio voluptas et.</p>
-
-                <p style="text-align:left;">Aboriosam inventore dolorem inventore nam est esse. Aperiam voluptatem nisi molestias laborum ut. Porro dignissimos eum. Tempore dolores minus unde est voluptatum incidunt ut aperiam.</p>
-
-                <p style="text-align:left;">Et dolore blanditiis officiis non quod id possimus. Optio non commodi alias sint culpa sapiente nihil ipsa magnam. Qui eum alias provident omnis incidunt aut. Eius et officia corrupti omnis error vel quia omnis velit. In qui debitis autem
-                    aperiam voluptates unde sunt et facilis.</p>
+            <div class="p-5" style="padding-top:30px; text-align:left">
+                <p><strong>Last Updated: 01/07/2019</strong></p>
+                <p *ngFor="let First of FirstPolicy">{{ First }}</p>
+                <br>
+                <p><strong>Information Collection And Use</strong></p>
+                <p *ngFor="let Second of SecondPolicy">{{ Second }}</p>
+                <br>
+                <p><strong>Communications</strong></p>
+                <p *ngFor="let Thrid of ThridPolicy">{{ Thrid }}</p>
+                <br>
+                <p><strong>Security</strong></p>
+                <p *ngFor="let Security of SecPolicy">{{ Security }}</p>
+                <br>
+                <p><strong>Changes To This Privacy Policy</strong></p>
+                <p *ngFor="let Change of ChangePolicy">{{ Change }}</p>
+                <br>
+                <p><strong>Contact Us</strong></p>
+                <p *ngFor="let ContactUs of ContactPolicy">{{ ContactUs }}</p>
             </div>
             <!-- </div> -->
 
         </div>
     </div>
 </section>
+<app-footer></app-footer>

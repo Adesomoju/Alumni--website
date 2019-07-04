@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class LayoutComponent implements OnInit {
 
 
-
   // tslint:disable-next-line:member-ordering
   public Excos = [
     // tslint:disable-next-line:max-line-length
@@ -20,11 +19,17 @@ export class LayoutComponent implements OnInit {
     // tslint:disable-next-line:max-line-length
     {image: '/assets/toyin.jpg', name: 'Toyin Bello nee Adeniyi', position: 'Public Relations Officer (2018 to date)', set: '1996 set'},
     // tslint:disable-next-line:max-line-length
-   {image: '/assets/monisola.jpg', name: 'Monisola Akinrosotu Esan', position: 'Treasurer (2018 to date)', set: '1993 set'},
+   {image: '/assets/Monisola.jpg', name: 'Monisola Akinrosotu Esan', position: 'Treasurer (2018 to date)', set: '1993 set'},
 // tslint:disable-next-line: max-line-length
    {image: '/assets/IMG_20171005_080744047_BURST001.jpg', name: 'Olubunmi T Eyelade', position: 'Assistant General Secretary (2018 to date)', set: '1995 set'},
 // tslint:disable-next-line: max-line-length
-   {image: '/assets/Bola_Adebayo.jpg', name: 'Bolanle Adebayo Odukoya', position: 'Financial Secretary (2018 to date)', set: '1993 set'}
+   {image: '/assets/Bola_Adebayo.jpg', name: 'Bolanle Adebayo Odukoya', position: 'Financial Secretary (2018 to date)', set: '1993 set'},
+   // tslint:disable-next-line: max-line-length
+   {image: '/assets/fafiye.jpg', name: 'Olubunmi Ogunbadejo Fafiyebi', position: 'Auditor (2018 to date)', set: '1993 set'},
+   // tslint:disable-next-line: max-line-length
+   {image: '/assets/Margaret.PNG', name: 'Margaret ( Ayeni) Adare', position: 'Ex-Officio', set: '1969 set'},
+   // tslint:disable-next-line: max-line-length
+   {image: '/assets/Ogundayisi.jpg', name: 'Oludare Omolade Bolanle Nee Ogundayisi', position: 'Ex-Officio', set: '1973 set'}
 
   ];
 
@@ -40,8 +45,10 @@ export class LayoutComponent implements OnInit {
     'God bless you.'
   ];
 
+
   constructor() { }
 
   ngOnInit() {
   }
+
 }

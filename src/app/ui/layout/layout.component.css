@@ -50,11 +50,12 @@
 
 /* about us section */
 
-.section-header {
-    margin-bottom: 40px;
-    position: relative;
-    padding-bottom: 20px;
-}
+
+/* .section-header {
+margin-bottom: 40px;
+ position: relative;
+padding-bottom: 20px;
+} */
 
 .section-header h2 {
     font-size: 36px;
@@ -72,7 +73,7 @@
     margin: 0;
     font-size: 18px;
     font-weight: 500;
-    color: #9195a2;
+    color: #53555d;
 }
 
 
@@ -101,15 +102,15 @@
 
 #speakers .speaker .details h3 {
     color: #fff;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 #speakers .speaker .details p {
     color: #fff;
-    font-size: 15px;
-    margin-bottom: 10px;
+    font-size: 13px;
+    margin-bottom: 5px;
     font-style: italic;
 }
 

@@ -1,47 +1,49 @@
+<app-header></app-header>
 <!-- Home section -->
-<section style="background: linear-gradient(rgba(10, 1, 36, 0.5),rgba(8, 1, 46, 0.5),rgba(7, 1, 42, 0.5)),url('/assets/casual-friends-friendship-599913.jpg');background-attachment: fixed;background-size: cover;position: absolute;min-height: 100%;min-width: 100%;z-index: 1;">
+<!-- Home section -->
+<section id="home" style="background: linear-gradient(rgba(10, 1, 36, 0.5),rgba(8, 1, 46, 0.5),rgba(7, 1, 42, 0.5)),url('/assets/casual-friends-friendship-599913.jpg');background-attachment: fixed;background-size: cover;position: absolute;min-height: 100%;min-width: 100%;z-index: 1;">
     <div class="container" id="head">
-        <h1 class="mb-4 pb-0" data-aos="zoom-in-right" data-aos-delay="950">The <br><span>St. Louis </span><br> Grammar School Owo <br>Alumni page</h1>
-        <p class="mb-4 pb-0" data-aos="zoom-in-left" data-aos-delay="700">You're welcome to St. Louis Grammar school Owo Official Alumni website.</p>
+        <h1 class="mb-4 pb-0">The <br><span>St. Louis </span><br> Grammar School Owo <br>Alumni page</h1>
+        <p class="mb-4 pb-0">You're welcome to St. Louis Grammar school Owo Official Alumni website.</p>
         <p> <a href="#about" class="btn btn-outline-secondary">Read More</a></p>
     </div>
 </section>
-<br>
+
 <!-- About section -->
-
+<!-- <div id="about"></div> -->
 <section class="section-header" style="padding-top: 860px;">
-    <div id="about"></div>
-    <div class="container">
-        <div>
 
+    <div class="container">
+        <div id="about"></div>
+        <div>
             <h2>About Us</h2>
             <p>Our Vision and Mission Statement</p>
             <hr class="horizon" style="height:3px;">
         </div>
-        <div class="row align-items-center" data-aos="fade-up-left">
-            <div class="col-lg-6">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-7" style="text-align:center;">
                 <div class="p-5">
-                    <img class="img-fluid" src="/assets/black-background-bulb-close-up-52910.jpg" alt="">
+                    <img class="img-fluid" src="/assets/2.jpeg" alt="">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-5">
                 <div class="p-5">
                     <h3 class="display-4">Vision Statement</h3>
-                    <p style="text-align:left;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    <p style="text-align:center;">To have a united and formidable Alumni Association where there is love, respect and unity of purpose for the re building of our school.</p>
                 </div>
             </div>
         </div>
 
-        <div class="row align-items-center" data-aos="fade-up-right">
-            <div class="col-lg-6">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6" style="text-align:center;">
                 <div class="p-5">
                     <h3 class="display-4">Mission Statement</h3>
-                    <p style="text-align:left;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    <p>To garner the support of all old girls in our drive for the creation of a conducive learning environment in the school by treating all old girls with love, respect and appreciation.</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="p-5">
-                    <img class="img-fluid" src="/assets/achievement-adult-african-1035598.jpg" alt="">
+                    <img class="img-fluid" src="/assets/5.jpeg" alt="">
                 </div>
             </div>
         </div>
@@ -49,7 +51,7 @@
 </section>
 
 <!-- Gallery -->
-<section id="community" class="section-header" style="padding-top: 50px;background-color: #f6f7fd" data-aos="zoom-out-up" data-aos-delay="200">
+<section id="community" class="section-header" style="padding-top: 50px;background-color: #f6f7fd">
     <div class="container ">
         <div>
             <h2>Our Community</h2>
@@ -59,17 +61,17 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="p-5">
-                    <img src="/assets/Fadaka.jpg" alt="Oluyemi Jimi-Salami (Fadaka)" class="img-fluid">
+                    <img src="/assets/3.jpeg" alt="Oluyemi Jimi-Salami (Fadaka)" class="img-fluid" style="padding-top: 95px">
                 </div>
             </div>
 
-            <div class="col-md-6">
-                <div class="p-5" class="animate fadeIn" style="padding-top:30px;">
-                    <h3>Oluyemi Jimi-Salami (Fadaka)</h3>
-                    <h6>Alumni President</h6>
-                    <p style="text-align:left;" *ngFor="let Speech of Speechs">{{ Speech }}</p>
+            <div class="col-md-5">
+                <div class="p-5" style="padding-top:30px;">
+                    <h3 style="text-align:center;">Oluyemi Jimi-Salami (Fadaka)</h3>
+                    <h5 style="text-align:center;">Alumni President</h5>
+                    <p style="text-align:left; font-size: 16px" *ngFor="let Speech of Speechs">{{ Speech }}</p>
                 </div>
             </div>
 
@@ -79,15 +81,17 @@
 
 <!-- Executives -->
 
-<section id="speakers" class="wow fadeInUp" style="background-color: white;padding-top: 50px;" data-aos="fade-right" data-aos-delay="200">
+<section id="speakers" style="background-color: white;padding-top: 50px;">
     <div class="container">
         <div class="section-header">
             <h2>Alumni Executives</h2>
-            <p>Our current Alumni</p>
+            <p>Our current Alumni Executives</p>
+            <hr class="horizon" style="height:3px;">
+
         </div>
 
         <div class="row">
-            <div class="col-lg-4 col-md-6" *ngFor="let Exco of Excos">
+            <div class="col-lg-3 col-md-3" *ngFor="let Exco of Excos">
                 <div class="speaker">
                     <img src="{{Exco.image}}" alt="{{Exco.name}}" class="img-fluid">
                     <div class="details">
@@ -104,3 +108,35 @@
 
 </section>
 <!-- last section -->
+
+<section id="project" class="section-header" style="padding-top: 55px;background-color: #f6f7fd">
+    <div class="container ">
+        <div>
+            <h2>Projects</h2>
+            <p style="color: #bebebe"> View some of Our proposed and finished projects</p>
+            <!-- <hr class="horizon" style="height:3px;"> -->
+            <hr class="horizon" style="height:3px;">
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="p-5" style="margin-top:65px; color: #0e1b4d">
+                    <p></p>
+                    <p style="text-align:left;">Most of our project are recorded on our youtube channel and subsequently, executed project would also be added to the youtube channel.</p>
+                    <p style="text-align:left;">You can view our videos on our <a href="https://www.youtube.com/channel/UC0mXMiB99wKDg2ZcwXBxBYQ" target="_blank"><strong style="color:#f82249">YouTube Channel</strong></a></p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="p-5">
+                    <img src="/assets/youtube.png" alt="youtube" class="img-fluid">
+                    <!-- <iframe width="530" height="300" src="https://youtu.be/-bQYci67LWI" frameborder="0"> </iframe> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- last section -->
+<app-footer></app-footer>

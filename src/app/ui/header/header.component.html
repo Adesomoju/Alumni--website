@@ -1,5 +1,6 @@
-<nav class="navbar navbar-expand-lg fixed-top">
-    <a class="navbar-brand" href="#">S.L.O Alumni</a>
+<nav class="navbar navbar-expand-lg fixed-top" style="scroll-behavior: smooth">
+    <!-- <a class="navbar-brand" routerLink="/" style="font-family: sans-serif">S.L.O Alumni</a> -->
+    <img src="/assets/logo.png" style="width: 66px;height: 50px;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleCollapsed()">
         <span class="fa fa-bars"></span>
     </button>
@@ -7,34 +8,25 @@
     <div class="collapse navbar-collapse " id="navbarSupportedContent" [ngClass]="{'collapse': collapsed, 'navbar-collapse': true}">
         <ul class="navbar-nav mr-4">
             <li class="nav-item">
-                <a class="nav-link" data-value="home" routerLink="/">Home</a>
+                <a class="nav-link" data-value="home" href="#home">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" data-value="about" href="#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " data-value="event" routerLink="/events">Programmes and News</a>
+                <a class="nav-link " data-value="community" href="#community">Community</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " data-value="event" href="#project">Projects</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link" data-value="classes" routerLink="/classes">Set/Classes</a>
-                <!-- <span class="caret"></span>
-                <ul class="dropdown-menu">
-                    <li class="nav-item"><a class="nav-link " href="#">Class'19</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#">Class'18</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#">Other Classes</a></li>
-                </ul> -->
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " data-value="contact" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " data-value="community" href="#community">Our community</a>
+                <a class="nav-link" data-value="directories" routerLink="/directories">Directories</a>
             </li>
         </ul>
 
         <div class="navbar-expand ml-auto navbar-nav">
             <div class="navbar-nav" id="navItem">
-                <a class="nav-item nav-link signIn" routerLink="/login">Sign In</a>
+                <!-- <a class="nav-item nav-link signIn" routerLink="/login">Sign In</a> -->
                 <a class="nav-item nav-link" href="https://www.facebook.com/groups/124249414309310/?ref=share" target="_blank">
                     <i class="fa fa-facebook"></i>
                 </a>

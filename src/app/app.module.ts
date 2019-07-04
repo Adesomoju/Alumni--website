@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { LayoutComponent } from './ui/layout/layout.component';
 import { AppComponent } from './app.component';
 import { UiModule } from './ui/ui.module';
 import { RouterModule, Routes } from '@angular/router';
-import { LayoutComponent } from './ui/layout/layout.component';
+import { from } from 'rxjs';
+
 
 
 
@@ -21,7 +22,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     UiModule,
-    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'}),
+    RouterModule.forRoot(appRoutes),
     UiModule
   ],
   providers: [],
