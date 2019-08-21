@@ -10,21 +10,29 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { LoginPageComponent } from './login-page/login-page.component';
 import { from } from 'rxjs';
 import { LayoutComponent } from './layout/layout.component';
+import { HistoryComponent } from './history/history.component';
+import { FormsModule } from '@angular/forms';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
 
 const appRoutes: Routes = [
   // {path: 'events', component: EventsComponent},
-  {path: 'directories', component: ClassesComponent},
-  {path: 'terms', component: TermsConditionComponent},
-  {path: 'policy', component: PrivacyPolicyComponent},
+  {path: 'Directories', component: ClassesComponent},
+  {path: 'Terms', component: TermsConditionComponent},
+  {path: 'Policy', component: PrivacyPolicyComponent},
   {path: 'login', component: LoginPageComponent},
+  {path: 'History', component: HistoryComponent},
 ];
 @NgModule({
   imports: [
     CommonModule,
+    FormsModule,
+    AngularFireDatabaseModule,
+    AngularFirestoreModule,
     RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'})
   ],
   // tslint:disable-next-line:max-line-length EventsComponent,
-  declarations: [HeaderComponent, FooterComponent, ClassesComponent, TermsConditionComponent, PrivacyPolicyComponent, LoginPageComponent, LayoutComponent],
+  declarations: [HeaderComponent, FooterComponent, ClassesComponent, TermsConditionComponent, PrivacyPolicyComponent, LoginPageComponent, LayoutComponent, HistoryComponent],
   exports: [LayoutComponent, HeaderComponent, FooterComponent]
 })
 export class UiModule { }

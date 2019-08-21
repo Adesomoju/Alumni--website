@@ -1,23 +1,44 @@
-<!-- Default form contact -->
-<div class="col-md-4" style="margin: 0 auto; padding-top: 150px;">
-    <form class="text-center border border-light p-5">
+<nav class="navbar navbar-expand-lg fixed-top">
+    <a class="navbar-brand" href="#"><img src="/assets/logo.png" style="width: 66px;height: 50px;"></a>
 
-        <p class="h4 mb-4">Register</p>
+    <div class="navbar-expand ml-auto navbar-nav">
+        <div class="navbar-nav" id="navItem">
+            <a class="nav-item nav-link" href="https://www.facebook.com/groups/124249414309310/?ref=share" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a class="nav-item nav-link" href="mailto:stlouisowoalumni@gmail.com>" target="_blank">
+                <i class="fa fa-envelope"></i>
+            </a>
+            <a class="nav-item nav-link" href="https://www.youtube.com/channel/UC0mXMiB99wKDg2ZcwXBxBYQ" target="_blank">
+                <i class="fa fa-youtube-play"></i>
+            </a>
+        </div>
+    </div>
+</nav>
 
-        <!-- Name -->
-        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="First Name">
-
-        <!-- Email -->
-        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Last Name">
-
-        <!-- set -->
-        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Set e.g '1995'">
-
-
-
-        <!-- Send button -->
-        <button class="btn btn-info btn-block" type="submit">Send</button>
-
-    </form>
+<div class="body">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 box text-center">
+                <H2 class="logo-g">Login</H2>
+                <form (ngSubmit)="onSubmit()">
+                    <div class="inputBox" id="user-data">
+                        <input type="text" name="firstname" required="" [(ngModel)]="item.firstname">
+                        <label>FirstName</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="lastname" required="" [(ngModel)]="item.lastname">
+                        <label>Surname</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="set" required="" [(ngModel)]="item.set">
+                        <label>Set</label>
+                    </div>
+                    <input type="submit" name="" value="submit">
+                    <div><a routerLink="/" style="color: #f82249; padding-top: 10px">Back to Home Page</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
-<!-- Default form contact -->

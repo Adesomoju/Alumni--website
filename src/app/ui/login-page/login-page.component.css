@@ -1,0 +1,139 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(10, 1, 36, 0.5), rgba(8, 1, 46, 0.5), rgba(7, 1, 42, 0.5)), url('/assets/casual-friends-friendship-599913.jpg');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
+.box {
+    /* position: absolute; */
+    top: 50%;
+    left: 50;
+    /* transform: translate(-50%, -50%); */
+    width: 400px;
+    margin-top: 210px;
+    padding: 40px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+
+.box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #b69ca1;
+    text-align: center;
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #b69ca1;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .inputBox input:focus~label,
+.box .inputBox input:valid~label {
+    top: -18px;
+    left: 0;
+    color: #f82249;
+    font-size: 12px;
+}
+
+.box input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #b69ca1;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box input[type="submit"]:hover {
+    background: #f82249;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+.navbar {
+    background: rgba(6, 12, 34, 0.98);
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 3rem;
+    font-size: 1.25rem;
+    margin-left: 20px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: rgba(202, 206, 221, 0.8);
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    background: #f82249;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #f82249;
+    border: 1px solid transparent;
+    margin-right: 20px;
+}

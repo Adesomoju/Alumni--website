@@ -11,7 +11,7 @@ export class LayoutComponent implements OnInit {
   // tslint:disable-next-line:member-ordering
   public Excos = [
     // tslint:disable-next-line:max-line-length
-    {image: '/assets/Fadaka.jpg', name: 'Yemi Jimi Salami (Fadaka)', position: 'President (2018 to date)', set: '1981 set'},
+    {image: '/assets/fada.jpg', name: 'Oyeyemi (Fadaka) jimi Salami', position: 'President (2018 to date)', set: '1981 set'},
 // tslint:disable-next-line: max-line-length
     {image: '/assets/Aderinsola_Ogunleye.jpg', name: 'Aderinsola Oloye Ogunleye', position: 'Vice President (2018 to date)', set: '1985 Set'},
     // tslint:disable-next-line:max-line-length

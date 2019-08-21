@@ -1,0 +1,15 @@
+.section-header {
+    /* margin-bottom: 40px; */
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #0e1b4d;
+}
