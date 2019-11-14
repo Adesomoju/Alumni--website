@@ -17,9 +17,9 @@ export class LayoutComponent implements OnInit {
     // tslint:disable-next-line:max-line-length
     {image: '/assets/Morayo.jpg', name: 'Simisola Morayo Asekun', position: 'General Secretary (2018 to date)', set: '1993 set'},
     // tslint:disable-next-line:max-line-length
-    {image: '/assets/toyin.jpg', name: 'Toyin Bello nee Adeniyi', position: 'Public Relations Officer (2018 to date)', set: '1996 set'},
+    {image: '/assets/IMG-4862.jpg', name: 'Monisola Akinrosotu Esan', position: 'Treasurer (2018 to date)', set: '1993 set'},
     // tslint:disable-next-line:max-line-length
-   {image: '/assets/Monisola.jpg', name: 'Monisola Akinrosotu Esan', position: 'Treasurer (2018 to date)', set: '1993 set'},
+    {image: '/assets/toyin.jpg', name: 'Toyin Bello nee Adeniyi', position: 'Public Relations Officer (2018 to date)', set: '1996 set'},
 // tslint:disable-next-line: max-line-length
    {image: '/assets/IMG_20171005_080744047_BURST001.jpg', name: 'Olubunmi T Eyelade', position: 'Assistant General Secretary (2018 to date)', set: '1995 set'},
 // tslint:disable-next-line: max-line-length
